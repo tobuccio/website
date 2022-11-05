@@ -7,7 +7,7 @@
 - > Game portal (io)
 
 ### Using the following
-> [ReactJS Tailwind Css](https://www.youtube.com/watch?v=b9eMGE7QtTk&t=3821s) **
+> [ReactJS Tailwind Css](https://youtu.be/b9eMGE7QtTk?t=1641) **
        >> Resume
        >> Appts
        >> Contact Me
