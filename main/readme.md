@@ -6,15 +6,14 @@
 - > Contact me (email)
 - > Game portal (io)
 
-### Using the following **
-
-    **> [ReactJS Tailwind Css](https://www.youtube.com/watch?v=b9eMGE7QtTk&t=3821s) **
-       -> Resume
-       -> Appts
-       -> Contact Me
-       -> Daily Routine
-    **> BabylonJS**
-       -> Game
+### Using the following
+> [ReactJS Tailwind Css](https://www.youtube.com/watch?v=b9eMGE7QtTk&t=3821s) **
+       >> Resume
+       >> Appts
+       >> Contact Me
+       >> Daily Routine
+> BabylonJS
+       >> Game
 
 
 ##**Design goals:**
@@ -30,7 +29,7 @@
 - > (Resume Editor (personal))
 
 ##**Concepts:**
--> Entry page (Cool sword unsheathing animation with entrance button + T Logo)
+-> Entry page <sub> (Cool sword unsheathing animation with entrance button + T Logo) </sub>
 -> [Main page concept](https://imgur.com/l38OB1t)
 
 **3 Main Pages**
