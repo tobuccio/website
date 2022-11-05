@@ -21,9 +21,7 @@
 - > Clean, 3D Objects, Polished, Optimized
 
 **Additional Features:**
-- > (Break lock to contact)
-- > (Scoreboard for game)
-- > (Objectives list)
+- > (Break lock to contact)  (Scoreboard for game) (Objectives list)
 - > (Background audio)
 - > (Donation page)
 - > (Game stats (personal))
