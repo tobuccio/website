@@ -1,11 +1,10 @@
+# Website Overview:
 
-# **Website Overview:**
-
-## *** Website will host the following items***
-> Resume
-> Appointment booking
-> Contact me (email)
-> Game portal (io)
+## Website will host the following items
+- > Resume
+- > Appointment booking
+- > Contact me (email)
+- > Game portal (io)
 
 ### Using the following **
 
