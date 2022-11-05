@@ -9,9 +9,11 @@ Website Overview:
 
 -> Using the following 
     > ReactJS + Tailwind CSS
+    https://www.youtube.com/watch?v=b9eMGE7QtTk&t=3821s
        -> Resume
        -> Appts
        -> Contact Me
+       -> Daily Routine
     > BabylonJS
        -> Game
 
@@ -26,3 +28,12 @@ Additional Features:
 -> (Donation page)
 -> (Game stats (personal))
 -> (Resume Editor (personal))
+
+Concepts:
+-> Entry page (Cool sword unsheathing animation with entrance button + T Logo)
+-> Main page concept: https://imgur.com/l38OB1t
+
+3 Main Pages
+- > Project page
+- > About Me Page
+- > Game Page / Redirect
