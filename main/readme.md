@@ -32,7 +32,9 @@
 -> Entry page <sub> (Cool sword unsheathing animation with entrance button + T Logo) </sub>
 -> [Main page concept](https://imgur.com/l38OB1t)
 
-**3 Main Pages**
+**3 Main Pages + Weather based style**
+
 - > Project page
 - > About Me Page
 - > Game Page / Redirect
+- > Contact Me Page

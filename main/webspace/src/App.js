@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import './App.css';
+import styles from './modules/weather.module.css';
 //import images
 //START WEATHER API
 
+
+// TODO: FIX API (current requests are unauthorized)
 const API_KEY_W = '5818deb42cf8a589318779074872fec4';
 const lat = 41.99
 const lon = -72.54
@@ -28,8 +30,11 @@ const Weather = () => {
 
     return (
         // PUT DATA HERE
-        <div className = 'Weather'>
-            <h2> Current weather {weatherdata}</h2>
+        // TO DO : FORMAT WEATHER WIDGET WITH COOL IMAGES n stuff
+        <div>
+            <p className = {styles.weather}> 
+                Current weather {weatherdata}
+            </p>
         </div>
     );
 }
@@ -37,10 +42,10 @@ const Weather = () => {
 
 const App = () => {
     return (
-        <div className="App">
+        <div>
             <h1> Welcome to FOMO </h1>
 
-            <div className = "WeatherDisplay">
+            <div className={styles.weather}>
                 <Weather />
             </div>
 
@@ -52,6 +57,9 @@ const App = () => {
 
                 </div>
                 <div className='GameButton'>
+
+                </div>
+                <div className='ContactButton'>
 
                 </div>
             </div>
