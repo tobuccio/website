@@ -6,7 +6,8 @@ import styles from './modules/weather.module.css';
 
 
 // TODO: FIX API (current requests are unauthorized)
-const API_KEY_W = '5818deb42cf8a589318779074872fec4';
+const weather_enabled = false;
+const API_KEY_W = '608b3005b7bbaa3617980fb7e235e016';
 const lat = 41.99
 const lon = -72.54
 const API_WEATHER_URL = 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + '&appid=' + API_KEY_W;
@@ -20,6 +21,10 @@ const Weather = () => {
 
     const [weatherdata, setWeatherData] = useState([]);
     const updateWeather = async () => {
+        if(!weather_enabled){
+            setWeatherData('api disabled');
+            return;
+        }
         const response = await fetch(`${API_WEATHER_URL}`);
         const data = await response.json();
         setWeatherData(data.weather[0].main);
@@ -46,7 +51,7 @@ const App = () => {
             <h1> Welcome to FOMO </h1>
 
             <div className={styles.weather}>
-                <Weather />
+               <Weather />
             </div>
 
             <div className = "Buttons">
